@@ -1,0 +1,254 @@
+.box1{
+border: 1px solid black;
+background-color: black;
+height: 30px;
+
+}
+
+ul{
+    float: left;
+    color: white;
+}
+
+ul li {
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 300%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h5{
+    margin-top: 1px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-serif ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+Subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+}
+
+ol li {
+    float: left;
+    width: 90px;
+    position: relative;
+    left: 25%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font: size 18px;
+}
+
+ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+
+
+.icon1{
+    position: absolute;
+    left: 82%;
+    top: 9%;
+    color: black;
+
+}
+
+.icon2{
+    position: absolute;
+    left: 85%;
+    top: 9%;
+    color: black;
+}
+
+.icon3{
+    position: absolute;
+    left: 88%;
+    top: 9%;
+    color: black;
+    width: 25px;
+    height: -30px;
+    border-radius: 100px;
+    background-color: navajowhite;
+    margin-top: -2px;
+    margin-left: -4px;
+    text-align: left;
+}
+
+h3{
+    color: red;
+    position: absolute;
+    left: 88.8%;
+    top: 4%;
+    width: 18px;
+    height: -50px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: barlow condensed,sans-serif;
+}
+h2{
+    position: relative;
+    left: -61.2%;
+    text-transform: uppercase;
+    font-family:barlow condensed,sans-serif ;
+    margin-top: 4px;
+    font-weight: bolder;
+}
+
+font{
+    color: red;
+}
+
+
+
+.cover img{
+background-size: cover;
+height: 100vh;
+width: 100%;
+object-fit: cover;
+
+}
+ 
+.text{
+position: absolute;
+top: 30%;
+right: 7%;
+}
+
+h1{
+    font-size: 70px;
+    font-family: barlow condensed,sans-serif;
+    text-transform: capitalize;
+    width: 460px;
+    word-spacing: 0px;
+    font-weight: normal;
+    line-height: 72px;
+}
+
+h4{
+    position: absolute;
+    top: -4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+ form input [type="submit"]{
+    position: absolute;
+    top: 86%;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-family: barlow condensed,sans-serif;
+    letter-spacing: 1px
+ }
+
+ form input[type="submit"]:hover{
+    background-color: red;
+ }
+
+.image-man{
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    border: 1px solid darkgray;
+    box-shadow: 1px 2px 4px;
+}
+
+.image-man h6{
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.image-man:hover{
+    box-shadow: 1px 3px 9px;
+}
+
+.image-woman{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    border: 1px 2px 4px;
+}
+
+.image-woman:hover{
+    box-shadow: 1px 3px 9px;
+}
+
+.image-woman h6{
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+    object-fit: cover;
+}
+
+.bag{
+    position: absolute;
+    left: 70%;
+    top: 100%;
+    border: 1px solid darkgray;
+    box-shadow: 1px 2px 4px;
+    object-fit: cover;
+}
+
+.bag:hover{
+    box-shadow: 1px 3px 9px; 
+}
+
+.bag h6{
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+    object-fit: cover;
+}
